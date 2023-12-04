@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "780882804748",
+    "firebase_url": "https://inventario-38a1d-default-rtdb.firebaseio.com",
+    "project_id": "inventario-38a1d",
+    "storage_bucket": "inventario-38a1d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:780882804748:android:7df30fce0badec95852e29",
+        "android_client_info": {
+          "package_name": "Inventario.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOzOACj8vd5Cy7ruzQLY3v9nitMmDcKTU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

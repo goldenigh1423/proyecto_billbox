@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:columnCount="1"
+    android:padding="12dp"
+    android:rowCount="2"
+    tools:context=".ui.gallery.GalleryFragment">>
+    <GridLayout
+        android:layout_column="0"
+        android:layout_row="0"
+
+        android:columnCount="2"
+        android:rowCount="2"
+        android:layout_columnWeight="1">
+        <Button
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_margin="5dp"
+            android:id="@+id/interfazinvregistrarobj"
+            android:layout_columnWeight="1"
+            android:hint="Registrar Objeto"
+            android:textColorHint="@color/white"
+            />
+
+        <Button
+            android:id="@+id/interfazinvelim"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_margin="5dp"
+            android:hint="Eliminar"
+            android:textColorHint="@color/white" />
+    </GridLayout>
+        <GridView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/interfazinvtabla"
+            android:layout_columnWeight="1"
+            android:numColumns="4"
+            android:isScrollContainer="true"
+            android:translationY="10dp"
+            android:columnWidth="100dp"
+            android:verticalSpacing="10dp"
+            android:horizontalSpacing="10dp">
+
+        </GridView>
+
+</GridLayout>

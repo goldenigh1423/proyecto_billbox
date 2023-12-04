@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context=".ViewModel.MainActivity">
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    <Button
+        android:id="@+id/Menufactura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Facturacion"
+
+        android:textColorHint="@color/white"
+        />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    <Button
+        android:id="@+id/Menuinventario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Inventario"
+        android:textColorHint="@color/white"
+        />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    <Button
+        android:id="@+id/MenuFacturas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Facturas"
+        android:textColorHint="@color/white"
+        />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    <Button
+        android:id="@+id/LogOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="LogOut"
+        android:textColorHint="@color/white"
+        />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+</LinearLayout>

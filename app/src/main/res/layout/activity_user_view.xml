@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    tools:context=".ViewModel.RegistrarUsuario">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/UserView_imageView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/user" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/User_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bienvenido"
+                android:textAlignment="center"
+                android:paddingTop="20dp"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/User_correo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="Usuario"
+                android:textSize="20sp"
+                android:inputType="textEmailAddress"
+                android:paddingTop="20dp"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/UserView_txt_contraseña"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="***********"
+                android:textSize="20sp"
+                android:inputType="textPassword"
+                android:paddingTop="20dp"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/UserView_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="Nombre de usuario"
+        android:inputType="text"
+        android:textSize="20sp"
+        android:paddingTop="20dp"
+        android:textAlignment="center" />
+    <TextView
+        android:id="@+id/UserView_sexo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="Sexo (Opcional)"
+        android:textSize="20sp"
+        android:inputType="text"
+        android:paddingTop="20dp"
+        android:textAlignment="center" />
+    <TextView
+        android:id="@+id/UserView_Telefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="Telefono (Opcional)"
+        android:textSize="20sp"
+        android:inputType="phone"
+        android:paddingTop="20dp"
+        android:textAlignment="center" />
+    <TextView
+        android:id="@+id/UserView_Fecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="Fecha de Nacimiento (Opcional)"
+        android:textSize="20sp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:textAlignment="center" />
+    <Button
+        android:id="@+id/UerView_Registrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Registrar"
+        android:textColorHint="@color/white"
+        />
+</LinearLayout>
